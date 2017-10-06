@@ -1,0 +1,745 @@
+@import url('base.css');
+/* 头部开始 */
+/* body{
+	background: #f2f5f8;
+} */
+header{
+	width: 100%;
+	height: 1.36rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+header a:first-child{
+	display: block;
+	width: 7rem;
+	height: 0.55rem;
+	font-size: 0.5rem;
+	color: #6d6d6d;
+}
+header a:nth-child(1)~a{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background: pink; */
+}
+header a:nth-child(1)~a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-ding{
+	width: 100%;
+	height: 1.36rem;
+}
+/* 头部结束 */
+/* 图片开始 */
+.tupian{
+	width: 100%;
+	height: 12.53rem;
+	background: #fff;
+	/* position: relative; */
+}
+.tupian div:first-child{
+	width: 8.34rem;
+	height: 100%;
+	margin-left: 0.72rem;
+	float: left;
+}
+.tupian div:first-child img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tupian div:last-child{
+	width: 0.72rem;
+	height: 100%;
+	float: right;
+	margin-right: 0.1rem;
+}
+.tupian a{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	background: #f2f5f8;
+	border-radius: 50%;
+	margin: 6.26rem auto;
+	/* position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 0.26rem; */
+	font-size: 0.5rem;
+	color: #a7a8a8;
+	text-align: center;
+	line-height: 0.72rem;
+}
+/* 图片结束 */
+/* 名称开始 */
+.ming{
+	display: block;
+	width: 100%;
+	height:2.07rem;
+	padding-left: 0.32rem;
+	padding-right: 0.32rem;
+	padding-top: 0.5rem;
+	line-height:100%;
+	font-size: 0.44rem;
+	color: #000;
+}
+/* 价格 */
+.maney{
+	display: block;
+	width: 100%;
+	height: 1.21rem;
+	background: #fff;
+	padding-left: 0.32rem;
+	font-size: 0.6rem;
+	color: #ff6296;
+}
+/* 销量、收藏、发货 */
+.xiaoliang{
+	width: 10.01rem;
+	height: 0.81rem;
+	background: #fff;
+	border-bottom: 0.02rem solid #f1f1f1;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+}
+.xiaoliang li{
+	width: 33.333333%;
+	height: 0.5rem;
+	font-size: 0.32rem;
+	color: #ababab;
+	border-right: 0.02rem solid #f1f1f1;
+	text-align: center;
+	line-height: 0.5rem;
+}
+/* 厂家承诺 */
+.changjia{
+	display: block;
+	width: 100%;
+	height: 1.84rem;
+	border-bottom: 0.15rem solid #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.changjia ul{
+	width: 9.38rem;
+	height: 0.45rem;
+	/* background: red; */
+}
+.changjia div{
+	width: 0.46rem;
+	height: 0.45rem;
+	font-size: 0.44rem;
+	/* background: red; */
+	color: #999999;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.changjia ul li div{
+    width: 0.45rem;
+    height: 0.45rem;
+    float: left;
+}
+.changjia ul li div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.changjia ul li span{
+	display: block;
+	font-size: 0.3rem;
+	color: #797979;
+	line-height: 0.45rem;
+	float: left;
+	padding-left: 0.15rem;
+	padding-right: 0.5rem;
+}
+.changjia ul li:last-child span{
+	padding-right: 0;
+}
+/* 厂家承诺结束 */
+/* 店铺开始 */
+.dianpu{
+	width: 100%;
+	height: 6.97rem;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 0.15rem solid #f2f5f8;
+}
+.dianming{
+	width: 10.22rem;
+	height: 1.5rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.miaoshu{
+	width: 10.22rem;
+	height: 2.09rem;
+	/* background: red; */
+	display: flex;
+	justify-content: center;
+}
+
+.dianming li:first-child{
+	width: 7.46rem;
+	height: 1.5rem;
+}
+.dianming li:last-child{
+	width: 2.12rem;
+	height: 0.76rem;
+}
+.dianming li:first-child a div{
+	width: 1.5rem;
+	height: 1.5rem;
+	/* background: yellow; */
+	border-radius: 50%;
+	float: left;
+}
+.dianming li:first-child a div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.dianming li:first-child a span{
+	display: block;
+	float: left;
+	font-size: 0.38rem;
+	color: #000;
+	padding-left: 0.32rem;
+	line-height: 1.5rem;
+}
+.dianming li:last-child a{
+	display: block;
+	width: 2.12rem;
+	height: 0.76rem;
+	background: #ff6699;
+	border-radius: 0.4rem;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.miaoshu li{
+	width: 50%;
+	height: 100%;
+	border-right:0.02rem solid #e9e9e9;
+
+}
+.miaoshu li:last-child{
+	border-right: 0;
+}
+.miaoshu li:first-child{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.miaoshu li:first-child div{
+	width: 1.8rem;
+	height: 1.58rem;
+	/* background: blue; */
+}
+.miaoshu li:first-child div span:first-child{
+	display: block;
+	width: 100%;
+	height: 50%;
+	font-size: 0.42rem;
+	color: #000;
+	text-align: center;
+	/* line-height: 0.79rem; */
+
+}
+.miaoshu li:first-child div span:last-child{
+	display: block;
+	width: 100%;
+	height: 50%;
+	font-size: 0.36rem;
+	color: #a1a1a1;
+	text-align: center;
+	padding-top: 0.2rem;
+
+}
+.miaoshu li:last-child{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.miaoshu li:last-child div{
+	width: 3.09rem;
+	height: 0.42rem;
+	/* background: yellow; */
+}
+.miaoshu li:last-child div span:first-child{
+	display: block;
+	font-size: 0.36rem;
+	color: #6a6a6a;
+	float: left;
+	line-height: 0.42rem;
+}
+.miaoshu li:last-child div span:nth-child(2){
+	display: block;
+	font-size: 0.32rem;
+	color: #fb3c3c;
+	float: left;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	line-height: 0.42rem;
+}
+.miaoshu li:last-child div div{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: right;
+}
+.miaoshu li:last-child div div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jindian{
+	display: block;
+	width: 9rem;
+	height: 0.92rem;
+	background: #f2f5f8;
+	border-radius: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.jindian li{
+	width: 50%;
+	height: 0.7rem;
+	font-size: 0.44rem;
+	color: #656465;
+	text-align: center;
+	line-height: 0.7rem;
+}
+.jindian li:first-child{
+	border-right: 2px solid #fff;
+}
+/* 店铺结束 */
+/* 为你推荐开始 */
+.weinituijian{
+	width: 100%;
+	height: 11.49rem;
+	background: #fff;
+	position: relative;
+}
+.weinituijian-top{
+	display: block;
+	width: 100%;
+	height: 1.5rem;
+	padding-left: 0.33rem;
+	font-size: 0.4rem;
+	color: #323232;
+	line-height: 1.5rem;
+}
+.weinituijian-img{
+	width: 100%;
+	height: 9.99rem;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+	 
+}
+.weinituijian-img li{
+	width: 2.44rem;
+	height: 4.24rem;
+	/* border-radius: 0.07rem; */
+	/* background: red; */
+}
+.weinituijian-img li .tupian{
+	width: 100%;
+	height: 3.63rem;
+	
+	/* background: green; */
+
+}
+.weinituijian-img li .tupian img{
+	display: block;
+	border-radius: 0.07rem;
+	width: 100%;
+	height: 100%;
+}
+.weinituijian-img li  span{
+	display: block;
+	width: 100%;
+	height: 0.61rem;
+	font-size: 0.3rem;
+	color: #2d2d2d;
+	text-align: center;
+	line-height: 0.61rem;
+}
+.weinituijian .yuan{
+	width: 0.68rem;
+	height: 0.23rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0.44rem;
+}
+.weinituijian .yuan div{
+	width: 0.23rem;
+	height: 0.23rem;
+	background: #666666;
+	border-radius: 50%;
+	/* float: right; */
+}
+.weinituijian .yuan div:first-child{
+	background: #fd7632;
+	/* float: left; */
+}
+/* 为你推荐结束 */
+/* 中间标题开始 */
+.xiangqing{
+	width: 100%;
+	height: 1.44rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.02rem solid #f2f2f2;
+}
+.xiangqing div{
+	display: block;
+	width: 33.333333%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #646464;
+	line-height: 1.44rem;
+	text-align: center;
+	position: relative;
+
+}
+
+.xiangqing div a{
+	color: #646464;
+}
+.xiangqing div:first-child a{
+	color: #000;
+}
+.xiangqing div div{
+	width: 0.75rem;
+	height: 0.06rem;
+	background: #000;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+}
+.xiangqing div:nth-child(1)~div div{
+	display:none;
+}
+/* 中间标题结束 */
+/* 详情开始 */
+
+.xq .word{
+	display: block;
+	width: 100%;
+	height: 1.84rem;
+	background: #fff;
+	padding-left: 0.32rem;
+	padding-right: 0.32rem;
+	padding-top: 0.5rem;
+	font-size: 0.4rem;
+	color: #878787;
+}
+.xq .chuangzhuoxiaoguo{
+	display: block;
+	width: 100%;
+	height: 0.67rem;
+	background: #fff;
+	padding-left: 0.32rem;
+	font-size: 0.4rem;
+	color: #000;
+}
+.xq div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.xq div{
+	width: 100%;
+	height: 12.48rem;
+}
+.xq div:nth-of-type(2){
+    height: 9.28rem;
+}
+.xq div:nth-of-type(3){
+    height: 6.08rem;
+}
+.xq div:nth-of-type(4){
+    height: 11.95rem;
+}
+.xq div:nth-of-type(5){
+    height: 12.20rem;
+}
+.xq div:nth-of-type(6){
+    height: 11.84rem;
+}
+.xq div:nth-of-type(7){
+    height: 11.83rem;
+}
+.xq div:nth-of-type(8){
+    height: 11.83rem;
+}
+.xq div:nth-of-type(9){
+    height: 11.56rem;
+}
+.xq div:nth-of-type(10){
+    height: 12.13rem;
+}
+.xq div:nth-of-type(11){
+    height: 13.21rem;
+}
+.xq div:nth-of-type(12){
+    height: 3.73rem;
+}
+.xq div:nth-of-type(13){
+    height: 13.24rem;
+    margin-bottom: 0.15rem;
+}
+.xq div:nth-of-type(14){
+    height: 13.15rem;
+     margin-bottom: 0.15rem;
+}
+.xq div:nth-of-type(15){
+    height: 7.51rem;
+}
+.xq div:nth-of-type(16){
+    height: 7.51rem;
+}
+.xq div:nth-of-type(17){
+    height: 7.51rem;
+}
+.xq div:nth-of-type(18){
+    height: 7.51rem;
+}
+.xq div:nth-of-type(19){
+    height: 10.89rem;
+     margin-bottom: 0.15rem;
+}
+.xq div:nth-of-type(20){
+    height: 13.26rem;
+    margin-bottom: 0.15rem;
+}
+.xq div:nth-of-type(21){
+    height:13.10rem;
+     margin-bottom: 0.15rem;
+}
+.xq div:nth-of-type(22){
+    height: 13.10rem;
+}
+/* 详情结束 */
+/* 规格尺码开始 */
+.guigechima{
+	width: 100%;
+	height: 37.53rem;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.guigechima li{
+	width: 9.89rem;
+	height: 3.846153%;
+	border-bottom:0.02rem solid #e5e5e5;
+}
+.guigechima li:nth-child(7),.guigechima li:nth-child(14){
+	border-bottom: 0;
+}
+.guigechima li span{
+	display: block;
+	width: 2.55rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #6f6f6f;
+	line-height: 1.43rem;
+	float: left;
+}
+.guigechima li div{
+	width: 7.28rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #6f6f6f;
+	line-height: 1.43rem;
+	float: left;
+
+}
+.guigechima li:first-child div{
+    display: flex;
+    justify-content: space-between;
+}
+.guigechima li:first-child div div,.guigechima li:nth-child(8) div div{
+	width: 25%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #ff77a5;
+	line-height: 1.43rem;
+}
+/* 规格尺码结束 */
+/* 热卖推荐开始 */
+.remaituijian-biaoti{
+	width: 100%;
+	height: 1.84rem;
+	background: #fff;
+	padding-left: 0.31rem;
+	font-size: 0.4rem;
+	color: #424242;
+	line-height: 1.22rem;
+}
+.remaituijian-tupian{
+	width: 100%;
+	height: 8.06rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+.remaituijian-tupian li{
+	width: 4.95rem;
+	height: 100%;
+	/* background: red; */
+	/* border:0.01rem solid #e4e4e4; */
+	border-radius: 0.06rem;
+}
+.remaituijian-tupian li a{
+	display: block;
+	border:0.01rem solid #e4e4e4;
+	width: 4.95rem;
+	height: 100%;
+}
+.remaituijian-tupian li a div:first-child{
+	width: 100%;
+	height: 6.6rem;
+	border-radius: 0.06rem;
+	border: 0;
+}
+.remaituijian-tupian li a div:first-child img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.remaituijian-tupian li a span{
+	display: block;
+	width: 100%;
+	height: 0.54rem;
+	font-size: 0.34rem;
+	color: #3e3e3e;
+	/* border-left:0.01rem solid #e4e4e4;
+	border-right:0.01rem solid #e4e4e4; */
+	padding:0.18rem 0.17rem 0rem 0.1rem;
+
+}
+.remaituijian-tupian li a div:last-child{
+    width: 100%;
+    height: 0.92rem;
+    /* padding: 0.2rem 0.2rem 0 0.2rem; */
+/*     border-left:0.01rem solid #e4e4e4;
+	border-right:0.01rem solid #e4e4e4;
+	border-bottom:0.01rem solid #e4e4e4;
+	 */
+}
+.remaituijian-tupian li a div:last-child span:first-child{
+	display: block;
+	width: 2.5rem;
+	height: 100%;
+	font-size: 0.32rem;
+	color: #ff3b6c;
+	float: left;
+}
+.remaituijian-tupian li a div:last-child div{
+	width: 1.08rem;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #737373;
+	float: left;
+}
+/* 热卖推荐结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height:1.50rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.dibu li:first-child{
+	width: 5.1rem;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.2rem;
+}
+
+.dibu li:nth-child(3),.dibu li:nth-child(2){
+	width: 2.85rem;
+	height: 100%;
+	background: #ff6699;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.dibu li:nth-child(2){
+	background: #ffe817;
+	color: #424242;
+}
+.dibu-ding{
+	width: 100%;
+	height: 1.5rem;
+}
+.dibu li:first-child div{
+	width: 33.333333%;
+	height: 100%;
+}
+.dibu li:first-child div div{
+	width: 0.67rem;
+	height: 0.63rem;
+	margin: 0 auto;
+	/* background: red; */
+}
+.dibu li:first-child div div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu li:first-child div span{
+	display: block;
+	font-size: 0.3rem;
+	color: #b5b5b5;
+	text-align: center;
+	line-height: 0.87rem;
+}
+.zz{
+	display: block;
+	color: #fff;
+}
+/* 底部开始 */
+

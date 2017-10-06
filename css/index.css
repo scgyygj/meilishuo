@@ -1,0 +1,582 @@
+@import url('base.css');
+/* 头部开始 */
+body{
+	background: #f1f4f9;
+	/* height: 200rem; */
+}
+header{
+	width: 100%;
+	height: 1.34rem;
+	background: #f1f4f9;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+}
+.header-di{
+	width: 100%;
+	height: 1.34rem;
+}
+header div:first-child{
+	width:0.59rem; 
+	height: 0.59rem;
+	/* background: pink; */
+}
+header div:first-child img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header div:nth-child(2){
+	width: 7.76rem;
+	height: 0.59rem;
+	/* background: pink; */
+	font-size: 0.5rem;
+	color: #292929;
+	text-align: center;
+	line-height: 0.59rem;
+}
+header div:last-child{
+	width: 0.61rem;
+	height: 0.59rem;
+	/* background: pink; */
+}
+header div:last-child img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 5.62rem;
+	/* background: red; */
+	position: relative;
+}
+.banner img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-bottom{
+	width: 1.41rem;
+	height: 0.09rem;
+	/* background: pink; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0.3rem;
+}
+.banner-bottom div{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #e9dec0;
+	border-radius: 50%;
+	margin-right: 0.29rem;
+	float: left;
+}
+.banner-bottom div:nth-child(2){
+	width: 0.24rem;
+	height: 0.09rem;
+	border-radius: 0.03rem;
+	background: #fff;
+}
+.banner-bottom div:last-child{
+	margin-right: 0;
+}
+
+/* banner结束 */
+ /* 厂家承诺开始 */
+.changjia{
+	width: 100%;
+	height: 1.15rem;
+	margin-bottom: 0.15rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.changjia li{
+	width: 25%;
+	box-sizing: border-box;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* background: pink; */
+}
+.changjia li div{
+	width: 0.25rem;
+	height: 0.33rem;
+	font-size: 0.2rem;
+	/* background: green; */
+	float: left;
+/* 	margin-right: 0.07rem; */
+}
+.changjia li span{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #777777;
+}
+/* 厂家承诺结束 */
+/* 圆图标开始  */
+.yuan{
+	width: 100%;
+	height: 3.61rem;
+	background: #fff;
+	display: flex;
+    justify-content:space-around;
+	align-items: center;
+
+}
+.yuan a{
+	display: block;
+	width: 2.1rem;
+	height: 2.67rem;
+	/* background: pink; */
+}
+.yuan a div{
+	width: 2.1rem;
+	height: 2.1rem;
+	border-radius: 50%;
+	/* background: green; */
+	margin-bottom: 0.3rem;
+}
+.yuan a div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.yuan a span{
+	display: block;
+	font-size: 0.28rem;
+	color: #000;
+	text-align: center;
+}
+/* 圆图标结束 */
+/* 限时秒杀开始 */
+.xianshi1{
+	display: block;
+	width: 100%;
+	height: 6.04rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	margin-bottom: 0.15rem;
+}
+.xianshi ul{
+	width: 10.2rem;
+	height: 1.15rem;
+	margin: 0 auto;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.xianshi ul li:first-child{
+	width: 2.2rem;
+	height: 0.42rem;
+	/* background: green; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.xianshi ul li:last-child{
+	/* width: 5.5rem;
+	height: 0.42rem; */
+	/* background: green; */
+	font-size: 0.24rem;
+	color: #474747;
+}
+.xianshi ul li:first-child div{
+	width: 0.4rem;
+	height: 0.42rem;
+	/* background: pink; */
+	/* margin-left: 0.04rem;
+	margin-right:  */
+}
+.xianshi ul li:first-child span{
+	display: block;
+	font-size: 0.2rem;
+	color: #474747;
+	/* margin-left:  0.1rem; */
+}
+.xianshi div{
+	width: 10.2rem;
+	height: 4.32rem;
+	margin: 0 auto;
+}
+.xianshi div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 限时秒杀结束 */
+/* 今日上新开始 */
+.jinrishangxin{
+	width: 100%;
+	height: 6.82rem;
+	background: #fff;
+}
+.jinrishangxin-bottom{
+	width: 100%;
+	height: 5rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.jinrishangxin-bottom a{
+	display: block;
+	width: 3rem;
+	height: 5rem;
+}
+.jinrishangxin-bottom a div{
+	width: 3rem;
+	height: 4.5rem;
+	/* background: pink; */
+}
+.jinrishangxin-bottom a div img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.jinrishangxin-bottom a  span{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.2rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.5rem;
+
+}
+/* 今日上新结束 */
+/* 正在流行开始 */
+.zhengzailiuxing{
+	width: 100%;
+	height: 12.58rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	position: relative;
+	margin-bottom: 0.15rem;
+}
+.zhengzailiuxing div{
+	width: 100%;
+	height: 9.89rem;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	align-content: space-between;
+
+}
+.zhengzailiuxing div a{
+     display: block;
+     /* background: pink; */
+     width: 2.28rem;
+     height: 3.03rem;
+}
+.zhengzailiuxing div a div{
+	 width: 2.28rem;
+	 height: 2.26rem;
+	 border-radius: 50%;
+	 /* background: red; */
+}
+.zhengzailiuxing div a div img{
+	display: block;
+	width: 2.26rem;
+	height: 2.26rem;
+	border-radius: 50%;
+
+}
+.zhengzailiuxing div a span{
+	display: block;
+	width: 100%;
+	height: 0.97rem;
+	font-size: 0.3rem;
+	color: #303030;
+	text-align: center;
+	line-height: 0.97rem;
+}
+.xiaoyuandian{
+	width: 1.56rem;
+	height: 0.21rem;
+	position: absolute;
+	left: 5.16rem;
+    bottom: 0.62rem;
+	display: flex;
+	justify-content:space-between;
+}
+.xiaoyuandian li{
+	width: 0.21rem;
+	height: 0.21rem;
+	border-radius: 50%;
+	background: #666666;
+}
+/* .jinri{
+	width: 0.83rem;
+	height: 0.42rem;
+	border-radius: 0.18rem;
+	background: #ff701f;
+	position: absolute;
+	left: 4.08rem;
+	bottom: 0.62rem;
+	font-size: 0.2rem;
+	color: #fff;
+} */
+/* 正在流行结束 */
+/* 好物搭配开始 */
+.haowu{
+	width: 100%;
+	height: 11.32rem;
+	background: #fff;
+}
+.haowu-tupian{
+	width: 100%;
+	height: 10.15rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	 align-content:space-around;
+	 justify-content: space-between;
+
+}
+.xiaoshi ul li div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.haowu-tupian li:first-child{
+	width: 6.78rem;
+	height: 10.15rem;
+	/* background: yellow; */
+}
+.haowu-tupian li:nth-child(1)~li{
+	width: 3.37rem;
+	height: 3.34rem;
+	/* background: yellow; */
+}
+.haowu-tupian li img{
+
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 好物搭配结束 */
+/* 一张图片 */
+.frist-img{
+	display: block;
+	width: 10.2rem;
+	height: 5.17rem;
+	margin: 0 auto;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.frist-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 五张图片开始 */
+.wu-img{
+	width: 100%;
+	height: 4.1rem;
+	/* background: red; */
+	padding-top: 0.15rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0.15rem;
+}
+.wu-img a{
+	width: 2rem;
+	height: 3.90rem;
+	/* background: yellow; */
+}
+.wu-img a div{
+	width: 2rem;
+	height: 3.14rem;
+}
+.wu-img a div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wu-img a  span{
+	display: block;
+	width: 100%;
+	height: 0.61rem;
+	font-size: 0.26rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.61rem;
+}
+
+/* 五张图片结束 */
+/* 查看更多好物搭配 */
+.dapen{
+	width: 100%;
+	height: 2.21rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.15rem;
+}
+.anniu{
+	width: 9.47rem;
+	height: 1.04rem;
+	background: #f1f4f9;
+	border-radius: 0.42rem;
+
+}
+.liuxing{
+	width: 100%;
+	height: 21.25rem;
+	background: #fff;
+}
+.liuxing-img{
+	width: 100%;
+	height: 19.44rem;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content:space-around;
+} 
+.liuxing-img li{
+    width: 4.9rem;
+    height: 9.44rem;
+    /* background: yellow; */
+}
+.liuxing-img li a{
+	display: block;
+}
+.liuxing-tu{
+	width: 100%;
+	height: 7.41rem;
+	/* background: green; */
+}
+.liuxing-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.liuxing-zi{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 0.22rem;
+	margin-bottom: 0.22rem;
+
+}
+.liuxing-zi span{
+	background: #f1f5f6;
+	font-size: 0.2rem;
+	color: #82858a;
+	margin-right: 0.1rem;
+	padding: 0.03rem;
+
+}
+.liuxing-zi span:first-child{
+	background: rgb(255, 0, 100);
+}
+.jiaqian{
+	width: 100%;
+	height: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.jiaqian span{
+    width: 1.1rem;
+    height: 100%;
+    font-size: 0.26rem;
+    color: #000;
+}
+.jiaqian div{
+	width: 1.5rem;
+	height: 100%;
+}
+.jiaqian div span{
+	display: block;
+	font-size: 0.26rem;
+	color: #000;
+	margin-right: 0.09rem;
+	float: left;
+}
+.jiaqian div div{
+	width: 0.35rem;
+	height: 0.35rem;
+	float: right;
+	/* background: red; */
+}
+/* .jiaqian div div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1.6rem;
+	border-top: 3px solid #f2f5f8;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	/* left: 0; */
+	display: flex;
+	justify-content: space-around;
+}
+.dibu-ding{
+	width: 100%;
+	height: 1.6rem;
+}
+.dibu li{
+	width: 2rem;
+	height: 100%;
+	/* margin: 0 auto; */
+	
+	/* background: red; */
+}
+.dibu li a{
+	display: block;
+}
+.dibu li a div{
+	width: 0.6rem;
+	height: 0.6rem;
+	/* background: green; */
+	margin: 0.2rem auto;
+}
+.dibu li a div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu li a span{
+	display: block;
+	width: 100%;
+	height: 0.25rem;
+	font-size: 0.24rem;
+	color: #666666;
+	text-align: center;
+}
+.dibu li:nth-child(1) a span{
+	color: #f83672;
+}
+
+/* 底部结束 */
